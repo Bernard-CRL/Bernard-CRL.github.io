@@ -67,3 +67,8 @@ tr:nth-child(even){
 tr:hover{
   background-color:red;
 }
+
+.done{
+  color:green;
+  text-decoration: line-through solid green 2px;
+}
