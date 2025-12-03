@@ -36,32 +36,6 @@ myButton.addEventListener("click",()=>{
     setUsername()
 })
 
-/*
-const listItems=document.querySelector("#todo li")
-function toggleDone(e){
-    if (!e.target.className == "todo"){
-        e.target.className ="done";
-
-    }else{
-        e.target.className ="";
-    }
-}
-
-toggleDone(e)
-
-listItems.forEach((item)=>{
-    item.addEventListener("click",toggleDone)
-})
-*/
-
-
-//This function below makes list turn green when its gets clciked but now i gota change it to be individual
-
-//list of items when and indivual item is clicked let it turn green. but the remaining items stay white till clicked
-//def click_green():
-//if index 1 is clikced then turn green
-
-
 const li =document.getElementById("todo")
 li.addEventListener("click", ()=>{
     const elements = document.getElementById('todo').getElementsByTagName('li')
@@ -70,3 +44,4 @@ li.addEventListener("click", ()=>{
         elements[i].style.color = 'green';
     }
 })
+
